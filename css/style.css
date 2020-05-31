@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.board {
+    top: calc(50% - 15vw);
+    left: calc(50% - 15vw);
+    position: absolute;
+    height: 30vw;
+    width: 30vw;
+    display: block;
+    border: 10px solid black;
+
+}
+
+span {
+    position: absolute;
+}
+
+span:first-child {
+    height: 15vw;
+    width: 15vw;
+    background-color: darkgray;
+}
+
+span:last-child {
+    height: 15vw;
+    width: 15vw;
+    background-color: darkgray;
+    bottom: 0;
+    right: 0;
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+    font-family: arial;
+    bottom: 5%;
+    font-size: 50px;
+}
